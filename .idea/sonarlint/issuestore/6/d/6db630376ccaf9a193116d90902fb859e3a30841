@@ -1,0 +1,34 @@
+
+C	Web:S1827d")Remove this deprecated "align" attribute.(ÚÖŠÈÿÿÿÿÿ
+CWeb:BoldAndItalicTagsCheckm"Replace this <i> tag by <em>.(­¦Û£
+CWeb:BoldAndItalicTagsCheckn"Replace this <i> tag by <em>.(ºÅÖÒ
+HWeb:BoldAndItalicTagsCheck{"Replace this <i> tag by <em>.(°Ç•üúÿÿÿÿ
+MWeb:TableWithoutCaptionCheck~" Add a description to this table.(Ø‹Óÿıÿÿÿÿ
+h Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(”‡Í×
+g Web:TableHeaderHasIdOrScopeCheck‚";Add either an 'id' or a 'scope' attribute to this <th> tag.(”İp
+m Web:TableHeaderHasIdOrScopeCheckƒ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ª£×àıÿÿÿÿ
+h Web:TableHeaderHasIdOrScopeCheck„";Add either an 'id' or a 'scope' attribute to this <th> tag.(İƒ¤à
+h Web:TableHeaderHasIdOrScopeCheck…";Add either an 'id' or a 'scope' attribute to this <th> tag.(Ú£Ø
+h Web:TableHeaderHasIdOrScopeCheck†";Add either an 'id' or a 'scope' attribute to this <th> tag.(êşô
+h Web:TableHeaderHasIdOrScopeCheck‡";Add either an 'id' or a 'scope' attribute to this <th> tag.( ­‰·
+h Web:TableHeaderHasIdOrScopeCheckˆ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ì–çÅ
+m Web:TableHeaderHasIdOrScopeCheck‰";Add either an 'id' or a 'scope' attribute to this <th> tag.(è½¨íúÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheckŠ";Add either an 'id' or a 'scope' attribute to this <th> tag.(ì™ƒ¾øÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(¾”‹Úıÿÿÿÿ
+h Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(“áß
+h Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(­®²Œ
+g Web:TableHeaderHasIdOrScopeCheck";Add either an 'id' or a 'scope' attribute to this <th> tag.(â©²
+h Web:TableHeaderHasIdOrScopeCheck‘";Add either an 'id' or a 'scope' attribute to this <th> tag.(ı‚«ä
+m Web:TableHeaderHasIdOrScopeCheck’";Add either an 'id' or a 'scope' attribute to this <th> tag.(­ª‚Øşÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck“";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š€³±úÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck”";Add either an 'id' or a 'scope' attribute to this <th> tag.(­ª‚Øşÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck•";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š€³±úÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck–";Add either an 'id' or a 'scope' attribute to this <th> tag.(­ª‚Øşÿÿÿÿ
+m Web:TableHeaderHasIdOrScopeCheck—";Add either an 'id' or a 'scope' attribute to this <th> tag.(Š€³±úÿÿÿÿ
+NWeb:TableWithoutCaptionCheck¨" Add a description to this table.(ªüÿ´üÿÿÿÿ
+D	Web:S1827ª")Remove this deprecated "width" attribute.(’ôÃíúÿÿÿÿ
+D	Web:S1827«")Remove this deprecated "width" attribute.(û—Îîùÿÿÿÿ
+D	Web:S1827¬")Remove this deprecated "width" attribute.(’ôÃíúÿÿÿÿ
+D	Web:S1827­")Remove this deprecated "width" attribute.(’ôÃíúÿÿÿÿ
+j	php:S1192"PDefine a constant instead of duplicating this literal "<option value="" 5 times.(ËÒ°«úÿÿÿÿ
+d	php:S1192"JDefine a constant instead of duplicating this literal "</option>" 6 times.(ËÒ°«úÿÿÿÿ

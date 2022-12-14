@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+body{background-color:#f3f1ef}
+#wrap{position:relative;width:100%;min-width:1540px;overflow: hidden;z-index:10}
+
+
+/* ——————————————————————————————————————
+ * header
+/* —————————————————————————————————————— */
+#header{width:100%;height:74px;background:#fff;text-align:center;-webkit-box-shadow:1px 2px 20px 0 rgba(0,0,0,0.1);box-shadow:1px 2px 20px 0 rgba(0,0,0,0.1);position:fixed;top:0;z-index:9999}
+
+/* logo */
+#header h1.logo{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+#header h1.logo a{display:block;line-height:0}
+#header h1.logo a img{width:auto;height:38px}
+
+/* gnb */
+#header .gnb{position:absolute;top:0;left:40px}
+#header .gnb ul li{float:left;margin:0 24px}
+#header .gnb ul li a{position:relative;display:inline-block;font-size:16px;line-height:74px;color:#888}
+#header .gnb ul li a:hover, #header .gnb ul li.active a{color:#222;text-decoration:none}
+#header .gnb ul li.active a:before{content:'';height:2px;background:#FB6D3A;position:absolute;bottom:0;left:0;right:0}
+
+#header .gnb ul li a .badge{display:inline-block;min-width:20px;height:20px;line-height:20px;font-size:11px;letter-spacing:0;font-weight:500;padding:0 5px;margin-left:3px;text-align:center;color:#fff;white-space:nowrap;vertical-align:baseline;border-radius:10rem;transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out}
+#header .gnb ul li a .badge.badge_purple{background-color:#503e9d}
+#header .gnb ul li a .badge.badge_orange{background-color:#FB6D3A}
+
+/* utils */
+#header .utils{position:absolute;right:0;top:0;font-size:0}
+
+/* status */
+#header .utils .status{display:inline-block;padding:17px 0}
+#header .utils .status li{float:left;margin-left:25px}
+#header .utils .status li a{display:inline-block;font-size:13px;line-height:40px}
+#header .utils .status li a .badge{display:inline-block;min-width:20px;height:20px;line-height:20px;font-size:11px;letter-spacing:0;font-weight:500;padding:0 5px;margin-left:3px;text-align:center;color:#fff;white-space:nowrap;vertical-align:baseline;border-radius:10rem;transition:color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out}
+#header .utils .status li a .badge.badge_orange{background-color:#FB6D3A}
+#header .utils .status li a .badge.badge_purple{background-color:#503e9d}
+#header .utils .status li a .badge.badge_green{background-color:#42ae33}
+#header .utils .status li a .badge.badge_mint{background-color:#1abc9c}
+#header .utils .status li a .badge.badge_yellow{background-color:#f9eb3c;color:#222}
+#header .utils .status li a .badge.badge_yellow2{background-color:#e8be02;color:#222}
+#header .utils .status li a .badge.badge_gray{background-color:#ccc}
+
+/* user */
+#header .utils .user{display:inline-block;margin-left:30px;padding:17px 30px;border-left:1px solid #eee;position:relative}
+#header .utils .user .user_btn{padding:0 10px;font-size:15px;line-height:40px;border:0;color:#888}
+#header .utils .user .user_btn:after{display:inline-block;margin-left:8px;vertical-align:0.255em;content:"";border-top:0.3em solid;border-right:0.3em solid transparent;border-bottom:0;border-left:0.3em solid transparent}
+#header .utils .user:hover .user_dropdown{display:block !important}
+#header .utils .user .user_dropdown{width:130px;padding:10px 0;background-color:#fff;box-shadow:0 0 20px rgba(0,0,0,0.15);border-radius:4px;position:absolute;left:50%;transform:translateX(-50%);z-index:1000;display:none}
+#header .utils .user .user_dropdown ul li a{display:block;font-size:13px;text-align:center;line-height:20px;padding:5px 0}
+#header .utils .user .user_dropdown ul li a:hover{text-decoration:underline}
+
+
+/* ——————————————————————————————————————
+ * contents
+/* —————————————————————————————————————— */
+#contents {
+	width: 100%;
+	position: relative;
+	padding-bottom: 40px;
+	z-index: 2;
+}
+.container{width:1540px;min-width:1540px;position:relative;margin:0 auto;padding-right:15px;padding-left:15px}
+.container_lg {width: 1200px;}
+
+
+/* ——————————————————————————————————————
+ * footer
+/* —————————————————————————————————————— */
+#footer{padding:30px}
+#footer .ft_copyright{color:#999;font-size:12px;letter-spacing:0.01em;text-align:center}
+
+
+/* ——————————————————————————————————————
+ * winPopup
+/* —————————————————————————————————————— */
+body.winPopup{overflow-y:auto}
+.winPopup_wrap{width:1000px;margin:0 auto;background:#fff}
+.winPopup_head{width:100%;display:table;padding:30px 40px;border-bottom:1px solid #eee}
+.winPopup_head_tit{width:40%;display:table-cell;vertical-align:middle}
+.winPopup_head_tit h1{font-weight:500;font-size:28px}
+.winPopup_head_tools{width:60%;display:table-cell;vertical-align:middle;text-align:right;font-size:0}
+.winPopup_head_tools dl{display:inline-block}
+.winPopup_head_tools dl:before{content:'';width:1px;height:14px;display:inline-block;background:#ddd;margin:0 15px;vertical-align:middle}
+.winPopup_head_tools dl:first-child:before{display:none}
+.winPopup_head_tools dl dd,
+.winPopup_head_tools dl dt{display:inline-block;font-size:14px;vertical-align:middle}
+.winPopup_head_tools dl dt{margin-right:8px;color:#999}
+.winPopup_body{position:relative;padding:0 40px 80px}
