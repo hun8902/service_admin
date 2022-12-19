@@ -846,6 +846,7 @@ include("../common/script.php")
             $('#schKeyword').val("");
             $('#schStartDate').val("");
             $('#schEndDate').val("");
+
             $( "#searchForm" ).submit();
         });
 

@@ -28,14 +28,14 @@ if(isset($_POST["action"]))
             $main_query = "
             SELECT * FROM post 
             INNER JOIN post_mgt 
-            ON post.idx = post_mgt.idx_no 
+            ON post.post_code = post_mgt.post_code 
             ";
 
         }else{
             $main_query = "
             SELECT * FROM post 
             INNER JOIN post_mgt 
-            ON post.idx = post_mgt.idx_no
+            ON post.post_code = post_mgt.post_code
             WHERE center_name = '".$cmp_name."'  
             ";
         }
@@ -704,7 +704,7 @@ if(isset($_POST["action"]))
         $object->query = "
 		SELECT * FROM post 
 		INNER JOIN post_mgt 
-		ON post.idx = post_mgt.idx_no
+		ON post.post_code = post_mgt.post_code
 		WHERE idx = '".$_POST["class_id"]."'
 		";
 
@@ -1038,7 +1038,7 @@ if(isset($_POST["action"]))
                 $object->query = "
                 UPDATE post  
                 INNER JOIN post_mgt
-                ON post.idx = post_mgt.idx_no
+                ON post.post_code = post_mgt.post_code
                 SET select_name = :select_name,
                 user_name = :user_name,    
                 phone1 = :phone1,    
